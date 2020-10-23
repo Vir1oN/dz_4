@@ -1,0 +1,49 @@
+.wrap {
+    width: 750px;
+    height: 400px;
+    background: black;
+    float: left;
+    padding: 5px;
+}
+
+.header {
+    height: 21%;
+    width: 100%;
+    clear: both;
+    background: orange;
+}
+
+.footer {
+    height: 21%;
+    width: 100%;
+    clear: both;
+    background: orange;
+}
+
+.flex-wrap {
+    display: flex;
+}
+
+.block-4 {
+    flex-basis: 25%;
+    height: 230px;
+    background: black;
+}
+
+.block-1 {
+    flex-basis: 25%;
+    height: 230px;
+    background: red;
+}
+
+.block-2 {
+    flex-basis: 25%;
+    height: 230px;
+    background: green;
+}
+
+.block-3 {
+    flex-basis: 25%;
+    height: 230px;
+    background: blue;
+}
